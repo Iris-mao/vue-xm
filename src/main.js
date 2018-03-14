@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 import {
   Menu,
-  MenuItem,
+  MenuItem
 } from 'element-ui'
 
 Vue.use(Menu)

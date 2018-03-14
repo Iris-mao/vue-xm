@@ -20,7 +20,11 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-##所用技术点
+## 所用技术点
+
 * vue-router
 * element-ui
 * sass语法
+
+## 代码规范参照
+[Code Guide by @AlloyTeam](http://alloyteam.github.io/CodeGuide/)

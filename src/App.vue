@@ -7,6 +7,7 @@
 
 <style>
     @import url('./assets/style/base.scss');
+    @import url('./assets/iconfont/iconfont.css');
 
     #app {
         position: absolute;

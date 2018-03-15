@@ -25,6 +25,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 * vue-router
 * element-ui
 * sass语法
+* 阿里巴巴矢量图库
 
 ## 代码规范参照
 [Code Guide by @AlloyTeam](http://alloyteam.github.io/CodeGuide/)

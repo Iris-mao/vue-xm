@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 536056 */
+    src: url('//at.alicdn.com/t/font_536056_ehnr8ctv4py6tj4i.eot');
+    src: url('//at.alicdn.com/t/font_536056_ehnr8ctv4py6tj4i.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_536056_ehnr8ctv4py6tj4i.woff') format('woff'),
+    url('//at.alicdn.com/t/font_536056_ehnr8ctv4py6tj4i.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_536056_ehnr8ctv4py6tj4i.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:18px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-user:before { content: "\e926"; }
+
+.icon-app:before { content: "\e6e4"; }
+
+.icon-logout:before { content: "\e655"; }
+
+.icon-product:before { content: "\e611"; }
+
+.icon-key:before { content: "\e664"; }
+
+.icon-API:before { content: "\e66b"; }
+
+.icon-eyeo:before { content: "\eebc"; }
+
+.icon-eye-off:before { content: "\e65c"; }
+
+.icon-yuandianxiao:before { content: "\e757"; }

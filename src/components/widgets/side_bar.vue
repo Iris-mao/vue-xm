@@ -1,13 +1,13 @@
 <template>
     <div id="navBar">
         <el-menu :default-active="activeMenuIndex"  class="el-menu-vertical-demo" text-color="#fff" unique-opened router>
-            <el-menu-item index="/user">
+            <el-menu-item index="/card">
                 <i class="iconfont icon-user"></i>
-                <span slot="title">User</span>
+                <span slot="title">Card</span>
             </el-menu-item>
-            <el-menu-item index="/service">
+            <el-menu-item index="/chart">
                 <i class="iconfont icon-API"></i>
-                <span slot="title">Service</span>
+                <span slot="title">chart</span>
             </el-menu-item>
             <el-menu-item index="/source">
                 <i class="iconfont icon-product"></i>

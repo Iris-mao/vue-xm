@@ -1,0 +1,79 @@
+.card .el-card__header .el-button {
+    float: right;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.card .el-card__header > div{
+    line-height: 24px;
+}
+
+.card .el-card__header .el-icon-edit,
+.card .el-card__header .el-icon-delete{
+    float: right;
+    margin: 0 2px;
+    font-size: 22px;
+    color: #409eff;
+    cursor: pointer;
+}
+
+.el-switch{
+    display: block;
+    float: right;
+    margin-left: 10px
+}
+
+.el-card__header {
+    padding: 10px;
+}
+
+.el-card {
+    margin-bottom: 15px;
+    height: 180px;
+    overflow: hidden;
+}
+.mainwrap {
+    padding: 10px 20px 10px 30px;
+    height: calc(100% - 40px);
+    overflow-y: auto;
+}
+
+.mainwrap .page-content{
+    display: flex;
+    height: calc(100% - 75px);
+}
+
+.mainwrap .page-header{
+    padding: 5px 10px;
+    font-size:22px;
+    font-weight: 500;
+    color: #333;
+}
+
+.mainwrap .page-header small{
+    color: #7E7E7E;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.el-form-item__label{
+    padding-right: 20px;
+}
+
+.el-tree--highlight-current .el-tree-node.is-current>.el-tree-node__content {
+    background-color: #f5f7fa;
+}
+
+.el-tree-node__label {
+    font-size: 16px;
+}
+
+.el-tree-node .is-checked{
+    background: #f5f7fa;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+.el-form-item.is-success .el-input__inner {
+    border-color: #dcdfe6;
+}

@@ -3,20 +3,21 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import {
-  Menu,
-  MenuItem
-} from 'element-ui'
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 
-Vue.use(Menu)
-Vue.use(MenuItem)
+// 按需引入Echarts
+import ECharts from 'vue-echarts/components/ECharts.vue'
+import 'echarts/lib/chart/line'
 
-Vue.config.productionTip = false
+Vue.use(ElementUI)
 
-/* eslint-disable no-new */
-new Vue({
-  el: '#app',
+Vue.component('chart', ECharts)
+
+const app = new Vue({
   router,
-  components: { App },
-  template: '<App/>'
+  el: '#app',
+  render: h => h(App)
 })
+
+export default app

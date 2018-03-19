@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import titleBar from "./wigdets/title_bar.vue";
-import sideBar from "./wigdets/side_bar.vue";
+import titleBar from "./widgets/title_bar.vue";
+import sideBar from "./widgets/side_bar.vue";
 export default {
   components: {
     titleBar,

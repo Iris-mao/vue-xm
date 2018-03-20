@@ -4,7 +4,7 @@ import Router from 'vue-router'
 import layout from '../components/layout'
 import card from '../components/menu/card.vue'
 import chart from '../components/menu/chart.vue'
-import source from '../components/menu/source.vue'
+import table from '../components/menu/table.vue'
 import apps from '../components/menu/apps.vue'
 import key from '../components/menu/keys.vue'
 
@@ -26,8 +26,8 @@ const routes =[
       path: 'chart',
       component: chart
     },{
-      path: 'source',
-      component: source
+      path: 'table',
+      component: table
     },{
       path: 'app',
       component: apps

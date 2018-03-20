@@ -7,11 +7,11 @@
             </el-menu-item>
             <el-menu-item index="/chart">
                 <i class="iconfont icon-API"></i>
-                <span slot="title">chart</span>
+                <span slot="title">Chart</span>
             </el-menu-item>
-            <el-menu-item index="/source">
+            <el-menu-item index="/table">
                 <i class="iconfont icon-product"></i>
-                <span slot="title">Source</span>
+                <span slot="title">Table</span>
             </el-menu-item>
             <el-menu-item index="/app">
                 <i class="iconfont icon-app"></i>
